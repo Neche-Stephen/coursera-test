@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+	background-color: white;
+}
+
+h1 {
+	margin:15px;
+  text-align: center;
+
+}
+.row {
+  width: 100%;
+
+
+}
+div{
+	position: relative;
+	
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    width: 30%;
+    background-color: gray;
+    margin: 15px ;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+
+    
+  }
+}		
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-5 {
+    width: 43.39%;
+    background-color: gray;
+    margin: 10px ;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+ 
+  .col-md-12 {
+  	width: 89%;
+    background-color:gray;
+    margin-left:10px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+
+	.col-xs-12 {
+  	width: 93%;
+    background-color: gray;
+    margin:10px;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+
+
+	}
+}
+
+.title1{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	margin-bottom: 10px;
+	border:1px solid black;
+	padding: 5px;
+	background-color: pink;
+	font-weight: bold;
+}
+
+.title2{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	margin-bottom: 10px;
+	border:1px solid black;
+	padding: 5px;
+	background-color: #ff4400;
+	font-weight: bold;
+
+}
+.title3{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	margin-bottom: 10px;
+	border:1px solid black;
+	padding: 5px;
+	background-color: yellow;
+	font-weight: bold;
+
+}
+.content{
+margin-top: 50px;
+font-size: .95em;
+
+}
